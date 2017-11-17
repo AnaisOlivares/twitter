@@ -1,0 +1,111 @@
+* {
+  font-family: sans-serif;
+}
+body {
+background-image: url(../assets/images/dog.jpg);
+background-size: 100%;
+background-repeat: no-repeat;
+}
+.square-left {
+  width: 300px;
+  height: 60px;
+  display: inline-block;
+}
+section {
+  padding: 15px;
+}
+h1 {
+  text-align: center;
+}
+/*h1, h3 {
+  margin: 0 0 30px;
+}*/
+
+/*h1::after, h3::after {
+  content: '';
+  display: block;
+  border-bottom: 4px solid #ce99ff;
+  height: 4px;
+  width: 300px;
+}*/
+
+form {
+  margin: 30px 20px 50px;
+}
+
+.input-wrapper {
+  background-color: yellow;
+  width: 366px;
+  position: relative;
+  padding: 20px;
+  display: inline-block;
+  bottom: 318px;
+  float: right;
+}
+textarea {
+  width: 94%;
+}
+label {
+  color: #b84dff;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 15px;
+}
+
+
+.btn {
+  background-color: #9900ff;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  display: inline-block;
+  outline: none;
+  padding: 7px 15px;
+}
+.btnHability {
+  background-color: #1da1f2;
+  padding: 10px 15px;
+  color: #fff;
+  border-radius: 20%;
+  font-weight: bold;
+  outline: none;
+
+}
+/*.btn{
+  background-color: #d9d0d0;
+  color: #b5b5b5;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 20%;
+  font-weight: bold;
+  outline: none;
+}*/
+
+
+
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  background-color: #f3e6ff;
+  border-radius: 5px;
+  margin: 5px 0;
+  padding: 15px 20px;
+}
+div {
+      margin-top: 124px;
+}
+span {
+  display: block;
+  font-weight: 700;
+}
+
+.contact-name {
+  color: #28004d;
+  font-size: 16px;
+}
