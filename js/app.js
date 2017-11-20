@@ -12,7 +12,7 @@ window.addEventListener('load', function() {
 
   // })
   var textarea = document.querySelector('textarea');
-
+  nameContact.focus();
   textarea.addEventListener('keydown', autosize);
 
   function autosize() {
@@ -25,12 +25,12 @@ window.addEventListener('load', function() {
 
   btnSave.addEventListener('click', function(event) {
     if (nameContact.value) {
-      event.preventDefault();
+      event.preventDefault(); //puedo usarlo con etiqueta a también, en el form también 
       btnSave.style.background = '#DDDFE0';
 
       var newContact = document.createElement('li'); //este es el padre
       containerContact.insertBefore(newContact, containerContact.firstElementChild);
-
+      nameContact.focus();
 
       var newName = document.createElement('span');
       newName.setAttribute('class', 'contact-name');
