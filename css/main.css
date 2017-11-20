@@ -1,21 +1,43 @@
 * {
   font-family: sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+
 }
 body {
-background-image: url(../assets/images/dog.jpg);
+background-image: url(../assets/images/corgi.jpg);
 background-size: 100%;
-background-repeat: no-repeat;
+background-repeat: repeat-y;
 }
 .square-left {
   width: 300px;
   height: 60px;
   display: inline-block;
+  border-radius: 34px;
+  background-color: pink;
+  height: 215px;
+  width: 400px;
+  position: absolute;
+  left: 144px;
+  line-height: 32px;
+  top: 149px;
+  padding: 34px;
+  font-size: 20px;
 }
 section {
   padding: 15px;
 }
 h1 {
   text-align: center;
+  padding: 20px;
+  color: white;
+}
+header {
+  background-color: #6AD2F3;
+    margin: 0;
+    margin-bottom: 100px;
+    padding: 3px;
+  
 }
 /*h1, h3 {
   margin: 0 0 30px;
@@ -35,15 +57,16 @@ form {
 
 .input-wrapper {
   background-color: yellow;
-  width: 366px;
-  position: relative;
-  padding: 20px;
-  display: inline-block;
-  bottom: 318px;
-  float: right;
-}
+    width: 481px;
+    position: relative;
+    padding: 20px;
+    display: inline-block;
+    bottom: 178px;
+    float: right;
+  }
 textarea {
   width: 94%;
+  font-size: 19px;
 }
 label {
   color: #b84dff;
@@ -55,13 +78,14 @@ label {
 
 
 .btn {
-  background-color: #9900ff;
+  /*background-color: #9900ff;*/
   border: none;
   border-radius: 5px;
   color: #ffffff;
   display: inline-block;
   outline: none;
   padding: 7px 15px;
+  font-size: 20px;
 }
 .btnHability {
   background-color: #1da1f2;
@@ -83,12 +107,24 @@ label {
 }*/
 
 
-
+#number-cont {
+  right: 50px;
+    position: absolute;
+    text-align: right;
+    font-size: 20px;
+    border: none;
+}
 
 ul {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+#container-contact {
+      position: relative;
+    top: 200px;
+    padding: 25px;
+
 }
 
 li {
@@ -108,4 +144,7 @@ span {
 .contact-name {
   color: #28004d;
   font-size: 16px;
+}
+.square-left {
+    
 }

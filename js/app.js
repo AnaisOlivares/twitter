@@ -16,6 +16,8 @@ window.addEventListener('load',function() {
   btnSave.addEventListener('click', function(event){
     if(nameContact.value){
       event.preventDefault();
+          btnSave.style.background = '#DDDFE0';
+
     var newContact = document.createElement('li'); //este es el padre
     containerContact.insertBefore(newContact,containerContact.firstElementChild);
 
@@ -33,13 +35,15 @@ nameContact.addEventListener("keyup", function(){
   var contador = '';
   contador = nameContact.value.length;
   contadorNumb.value = max - contador;
-  if (contador>140) {
+  if (contador>=140) {
     btnSave.disabled = true;
-    contadorNumb.style.color = 'red'
+    contadorNumb.style.color = 'red' 
+    btnSave.style.background = '#DDDFE0';
 
   }else if (contador>=130){
     btnSave.disabled = false;
     contadorNumb.style.color = 'pink';
+    btnSave.style.background = '#6AD2F3';
     
   }else if (contador<130 && contador>120){
     btnSave.disabled = false;
@@ -48,6 +52,7 @@ nameContact.addEventListener("keyup", function(){
   }else{
     btnSave.disabled=false;
     contadorNumb.style.color = 'black';
+    btnSave.style.background =  '#6AD2F3';
   }
 
 });
